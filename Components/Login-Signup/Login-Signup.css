@@ -1,0 +1,129 @@
+.outside-container {
+    background-color: #eaeaea;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 425px;
+    width: 500px;
+    height: 525px;
+    padding-bottom: 50px;
+    background: linear-gradient(#007787, #1f006c);
+    border-radius: 20px;
+    filter: drop-shadow(0px 0px 10px#3b3b3b);
+}
+
+.heading-of-loginsignup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text {
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline {
+    width: 61px;
+    height: 6px;
+    background: white;
+    border-radius: 9px;
+}
+
+.inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 420px;
+    height: 50px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+#Image {
+    margin: 0px 30px;
+}
+
+.input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.forgot-password {
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+
+.forgot-password span {
+    color: rgba(255, 255, 255, 0.845);
+    cursor: pointer;
+}
+
+.submit-container {
+    display: flex;
+    gap: 30px;
+    margin: 20px auto;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 59px;
+    color: rgba(0, 0, 0, 0.769);
+    background: white;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.gray {
+    background: #EAEAEA;
+    color: #676767;
+}
+
+@media only screen and (max-width:1043px) {
+    .container {
+        margin-left: 25px;
+    }
+}
+
+@media only screen and (max-width:650px) {
+    .container {
+        width: 350px;
+        height: 500px;
+    }
+
+    .input {
+        width: 300px;
+    }
+
+    .submit-container {
+        width: 200px;
+    }
+}
